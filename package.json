@@ -1,0 +1,10 @@
+{
+  "name": "loopa",
+  "version": "0.1.0",
+  "description": "Scalable load testing tool for web applications",
+  "author": "pari9p <behlpari4@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"No JS tests yet\""
+  }
+}
