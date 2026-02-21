@@ -1,15 +1,19 @@
 
+
 # Loopa
 
-Loopa is a modern, scalable, and extensible load testing tool for web applications and services. Designed for developers and QA engineers, Loopa enables you to simulate realistic user behavior, generate distributed traffic, and analyze system performance under various conditions.
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
-## Overview
+Loopa is an open source, developer-friendly load testing tool for HTTP and other protocols. Define your tests in regular Python code, run them from the command line or web UI, and scale up to distributed testing across many machines.
 
-Loopa provides:
-- Easy scripting of user scenarios in Python
-- Distributed and scalable load generation
-- Real-time web UI for monitoring and reporting
-- Extensible architecture for custom shapes, events, and integrations
+## Features
+
+- **Write user test scenarios in plain Python**: Use familiar programming constructs to define user behavior, loops, and conditional logic.
+- **Distributed & Scalable**: Easily run load tests distributed over multiple machines, supporting thousands of concurrent users.
+- **Web-based UI**: Monitor test progress, throughput, response times, and errors in real time. Change load while the test is running.
+- **Extensible & Hackable**: Add custom event handlers, load shapes, and reporting modules. Test any system or protocol by writing your own client.
+- **CI/CD Friendly**: Run tests headless for automation and integration.
 
 ## Project Structure
 
@@ -23,19 +27,13 @@ Dockerfile, Makefile, pyproject.toml, package.json, LICENSE, SECURITY.md
 
 ## Architecture
 
-Loopa is built with modularity and extensibility in mind:
-- **Argument Parser**: Handles command-line and environment configuration
-- **Environment Manager**: Manages test settings and variables
-- **Dispatcher**: Orchestrates task execution and user simulation
-- **Clients**: Provides HTTP client logic for interacting with target systems
-- **Event System**: Enables custom event handling and extensibility
-- **Examples & Extensions**: Demonstrate advanced integrations (Docker, Terraform, Vagrant, gRPC, etc.)
-
-### Typical Workflow
-1. Define user behavior and tasksets in Python
-2. Configure test parameters via CLI or environment variables
-3. Run distributed tests locally, in Docker, or on cloud infrastructure
-4. Monitor results in real-time and analyze performance metrics
+Loopa is modular and extensible:
+- **Argument Parser**: Command-line and environment configuration
+- **Environment Manager**: Test settings and variables
+- **Dispatcher**: Task execution and user simulation
+- **Clients**: HTTP client logic for target systems
+- **Event System**: Custom event handling and extensibility
+- **Examples & Extensions**: Advanced integrations (Docker, Terraform, Vagrant, gRPC, etc.)
 
 ## Getting Started
 
@@ -52,9 +50,11 @@ Comprehensive documentation is available in the [docs/](docs/) directory:
 - Running Distributed
 - Writing a Loopafile
 
-## License
+## Links
 
-Loopa is released under the MIT License.
+- [Documentation](https://github.com/Palak-test/trading-performance-test-suite/tree/master/docs)
+- [Security Policy](SECURITY.md)
+- [MIT License](LICENSE)
 
 ---
 
