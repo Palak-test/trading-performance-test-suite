@@ -1,0 +1,11 @@
+[project]
+name = "loopa"
+version = "0.1.0"
+description = "Scalable load testing tool for web applications"
+authors = ["pari9p <behlpari4@gmail.com>"]
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["pytest_loopa"]
